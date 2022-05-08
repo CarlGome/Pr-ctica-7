@@ -1,0 +1,213 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K50 ]
+[d frameptr 4065 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"23 C:\Users\Lenovo\Desktop\practice06\main.c
+[v _main main `(v  1 e 1 0 ]
+"88
+[v _send2LCD send2LCD `(v  1 e 1 0 ]
+"99
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"128
+[v _LCD_cmd LCD_cmd `(v  1 e 1 0 ]
+"139
+[v _key_scanner key_scanner `(uc  1 e 1 0 ]
+"181
+[v _char_to_seg char_to_seg `(uc  1 e 1 0 ]
+"278 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8\pic\include\proc\pic18f45k50.h
+[v _ANSELB ANSELB `VEuc  1 e 1 @3932 ]
+"328
+[v _ANSELC ANSELC `VEuc  1 e 1 @3933 ]
+"362
+[v _ANSELD ANSELD `VEuc  1 e 1 @3934 ]
+[s S183 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"3084
+[s S192 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S200 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S203 . 1 `S183 1 . 1 0 `S192 1 . 1 0 `S200 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES203  1 e 1 @3969 ]
+"3306
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S143 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"3919
+[s S152 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S161 . 1 `S143 1 . 1 0 `S152 1 . 1 0 ]
+[v _LATBbits LATBbits `VES161  1 e 1 @3978 ]
+"4004
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+[s S31 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"4031
+[s S40 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S49 . 1 `S31 1 . 1 0 `S40 1 . 1 0 ]
+[v _LATCbits LATCbits `VES49  1 e 1 @3979 ]
+"4106
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"4849
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"5071
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S101 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"5101
+[s S110 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S117 . 1 `S101 1 . 1 0 `S110 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES117  1 e 1 @3988 ]
+"5249
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"12357
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"23 C:\Users\Lenovo\Desktop\practice06\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"39
+[v main@key key `uc  1 a 1 14 ]
+"41
+[v main@res res `uc  1 a 1 13 ]
+"43
+[v main@num2 num2 `uc  1 a 1 12 ]
+"42
+[v main@num1 num1 `uc  1 a 1 11 ]
+"40
+[v main@simb simb `uc  1 a 1 10 ]
+"87
+} 0
+"88
+[v _send2LCD send2LCD `(v  1 e 1 0 ]
+{
+[v send2LCD@xy xy `uc  1 a 1 wreg ]
+[v send2LCD@xy xy `uc  1 a 1 wreg ]
+[v send2LCD@xy xy `uc  1 a 1 2 ]
+"97
+} 0
+"139
+[v _key_scanner key_scanner `(uc  1 e 1 0 ]
+{
+"178
+} 0
+"181
+[v _char_to_seg char_to_seg `(uc  1 e 1 0 ]
+{
+[v char_to_seg@num num `uc  1 a 1 wreg ]
+"182
+[v char_to_seg@segments segments `uc  1 a 1 3 ]
+"181
+[v char_to_seg@num num `uc  1 a 1 wreg ]
+[v char_to_seg@num num `uc  1 a 1 2 ]
+"202
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"99 C:\Users\Lenovo\Desktop\practice06\main.c
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+"110
+} 0
+"128
+[v _LCD_cmd LCD_cmd `(v  1 e 1 0 ]
+{
+[v LCD_cmd@cx cx `uc  1 a 1 wreg ]
+[v LCD_cmd@cx cx `uc  1 a 1 wreg ]
+"130
+[v LCD_cmd@cx cx `uc  1 a 1 0 ]
+"137
+} 0
